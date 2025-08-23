@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>todo app</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="meunu-container">
+                <input id="input" type="text" placeholder="Add a new task" onkeydown="reader(event)">
+                <div class="procces">
+                    <div class="procces-left">
+                        <a href="#" class="all" onclick='click1()'>All</a>
+                        <a href="#" class="pending" onclick='click2()'>Pending</a>
+                        <a href="#" class="completed" onclick='click3()'>completed</a>
+                    </div>
+                    <button class="clear">Clear All</button>
+                </div>
+            </div>
+        </div>
+        <div class="result">
+            <div class="result-container">
+                <p class="no-task">
+                    You don't have any task here
+                </p>
+
+                <div class="task-container">
+                    <div class="input-task">
+                        <input type="checkbox" id="task1">
+                        <label for="task1" class="label">task 1</label>
+                    </div>
+                    <i class="fa fa-ellipsis-h icon"></i>
+                    <!-- <div class="show-menu">
+                        hbflierf
+                    </div> -->
+                </div>
+
+                <!-- <div class="task-container">
+                    <div class="input-task">
+                        <input type="checkbox" id="task1">
+                        <label for="task1" class="label">task 1</label>
+                    </div>
+                    <i class="fa fa-ellipsis-h icon"></i>
+                </div>
+                
+                <div class="task-container">
+                    <div class="input-task">
+                        <input type="checkbox" id="task1">
+                        <label for="task1" class="label">task 1</label>
+                    </div>
+                    <i class="fa fa-ellipsis-h icon"></i>
+                </div>
+
+                <div class="task-container">
+                    <div class="input-task">
+                        <input type="checkbox" id="task1">
+                        <label for="task1" class="label">task 1</label>
+                    </div>
+                    <i class="fa fa-ellipsis-h icon"></i>
+                </div>
+
+                <div class="task-container">
+                    <div class="input-task">
+                        <input type="checkbox" id="task1">
+                        <label for="task1" class="label">task 1</label>
+                    </div>
+                    <i class="fa fa-ellipsis-h icon"></i>
+                </div>
+                <div class="task-container">
+                    <div class="input-task">
+                        <input type="checkbox" id="task1">
+                        <label for="task1" class="label">task 1</label>
+                    </div>
+                    <i class="fa fa-ellipsis-h icon"></i>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script src="./js.js"></script>
+</body>
+
+</html>

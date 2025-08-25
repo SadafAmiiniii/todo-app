@@ -52,7 +52,7 @@ This project was my **first JavaScript project**, created to practice DOM manipu
 
 ## 📸 Preview
 
-![Chats UI Preview](./todoAppPreview.gif)
+![Quote App Preview](./todoAppPreview.gif)
 
 ---
 

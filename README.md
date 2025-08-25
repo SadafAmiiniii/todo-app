@@ -35,22 +35,18 @@ This project was my **first JavaScript project**, created to practice DOM manipu
    ```bash
    git clone https://github.com/SadafAmiiniii/todo-app.git
    cd chats
-   
 2. Open the project folder:
       ```bash
       cd todo-app
-      
 3. Run the app by opening index.html in your browser
 
 ---
 
 ## 🔍 Improvements & Best Practices  
 
-- Define **TypeScript types** for Context instead of using `null`  
-- Use more descriptive naming (e.g., `CartContext` instead of `cartContext`)  
-- Extract Context into a separate file (e.g., `CartContext.js`)  
-- Add features like decrementing or removing items from the cart  
-- Write simple tests for Context and components  
+- Use **local storage** to persist tasks even after refreshing the page  
+- Replace inline `onclick` handlers with `addEventListener`  
+- Add animations for adding/removing tasks 
 
 ---
 

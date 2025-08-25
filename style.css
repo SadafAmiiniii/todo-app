@@ -70,6 +70,7 @@ body{
 
 
 .task-container{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -82,16 +83,36 @@ body{
 .label{
     margin-left: 7px;
 }
-.show-menu{
-    width: 100px;
-    height: 100px;
-    background-color: red;
+.show-menu {
+    position: absolute;
+    right: 18px;
+    top: 2px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+  
+.show-menu p {
+    margin: 0;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+  
+.show-menu p:hover {
+    background: #eee;
+}
+  
+.hidden {
+    display: none;
 }
 .icon{
     align-self: flex-end;
 }
 .icon:hover{
-    color: red;
+    cursor: pointer;
 }
 
 
